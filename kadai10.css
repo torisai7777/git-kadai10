@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 50px;
+  background-color: #ff9a4b;
+}
+.big-box {
+  width: 960px;
+  display: flex; /* Flexbox縺ｮ蛻ｩ逕ｨ */
+  justify-content: center; /* 隕∫ｴ縺ｮ讓ｪ荳ｦ縺ｳ繝ｻ荳ｭ螟ｮ蟇○ */
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.smoll-box:nth-child(1) {
+  width: 300px;
+  background-color: #eeeeee;
+  margin: 0 30px 0 0;
+}
+
+.smoll-box:nth-child(2) {
+  width: 300px;
+  background-color: #eeeeee;
+  margin: 0 30px 0 0;
+}
+
+.smoll-box:nth-child(3) {
+  width: 300px;
+  background-color: #eeeeee;
+  margin: 0 0 0 0;
+}
+
+.step-box {
+  position: absolute;
+  background-color: #ff9a4b;
+  color: white;
+}
+
+.img-box {
+  width: auto;
+  height: 150px;
+  background-size: auto 150px;
+  margin: 10px 10px 0 10px;
+  background-image: url(img9/flow01.png);
+}
+
+.img-box1 {
+  width: auto;
+  height: 150px;
+  background-size: auto 150px;
+  margin: 10px 10px 0 10px;
+  background-image: url(img9/flow02.png);
+}
+
+.img-box2 {
+  width: auto;
+  height: 150px;
+  background-size: auto 150px;
+  margin: 10px 10px 0 10px;
+  background-image: url(img9/flow03.png);
+}
+
+.text-box h3 {
+  margin: 15px 0 5px 0;
+}
+
+footer {
+  height: 50px;
+  background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  .big-box {
+    width: 100%;
+    margin: 0 10%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .smoll-box:nth-child(1),
+  .smoll-box:nth-child(2) {
+    width: 90%;
+    margin: 0 0 20px 0;
+  }
+
+  .smoll-box:nth-child(3) {
+    width: 90%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
