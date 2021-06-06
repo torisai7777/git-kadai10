@@ -34,6 +34,7 @@ header {
 }
 
 .step-box {
+  padding: 3px;
   position: absolute;
   background-color: #ff9a4b;
   color: white;
@@ -42,29 +43,36 @@ header {
 .img-box {
   width: auto;
   height: 150px;
-  background-size: auto 150px;
+  background-size: cover;
   margin: 10px 10px 0 10px;
+  background-position: bottom;
   background-image: url(img9/flow01.png);
 }
 
 .img-box1 {
   width: auto;
   height: 150px;
-  background-size: auto 150px;
+  background-size: cover;
   margin: 10px 10px 0 10px;
+  background-position: bottom;
   background-image: url(img9/flow02.png);
 }
 
 .img-box2 {
   width: auto;
   height: 150px;
-  background-size: auto 150px;
+  background-size: cover;
   margin: 10px 10px 0 10px;
+  background-position: bottom;
   background-image: url(img9/flow03.png);
 }
 
 .text-box h3 {
-  margin: 15px 0 5px 0;
+  margin: 15px 0 5px 10px;
+}
+
+.bun-box {
+  margin: 0 10px 10px 10px;
 }
 
 footer {
